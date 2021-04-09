@@ -6,7 +6,8 @@
 
 ## Blockchain
 
-Blockchain as the name suggests is a series of blocks. Each block is made of two parts—data and data fragmentation, so we can verify that the data is not modified. To connect the blocks together, there is an earlier block segmentation listed in the data pane. That is, each part of the hash also disturbs the fragmentation of a previous block, which frequently leads to the first mass. In this way, blocks make a series where each segmentation is effectively responsible for all previous segmentation, and then the entire series can be verified. See the diagram below for the illustrated example.
+Blockchain as the name suggests is a chain of blocks. Each block is made of two parts – awarde data and a hash of the data, so we could verify the data hasn’t been modified. To connect blocks together, there is a hash of a previous block included into the data part. Meaning, each hash part also hashes a hash of a previous block, which recursively leads to the first block. This way blocks make a chain where effectively each hash is responsible for all the previous hashes, hence the whole chain can be verified.
+See the diagram below for the illustrated example.
 
 ![Untitled Workspace](https://user-images.githubusercontent.com/31998695/114116693-07252000-98dd-11eb-8e99-72d048a0e299.jpg)
 
